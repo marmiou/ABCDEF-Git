@@ -140,6 +140,10 @@ slidenumbers: true
 
 ---
 
+![](images/go321.gif)
+
+---
+
 # Getting Started
 
 ---
@@ -147,7 +151,7 @@ slidenumbers: true
 #Initializing a git repository
 
 `cd /path/to/your/existing/code`
-`git init `
+`git init`
 
 ---
 
@@ -188,7 +192,11 @@ slidenumbers: true
 
 ---
 
-#Performing our first commit
+## Performing our first commit
+
+---
+
+# Performing our first commit
 
 ```
 cd /path/to/project
@@ -199,17 +207,108 @@ git commit -m "added kati.txt to the repo"
 ```
 ---
 
-## git add
+# Adding changes to the staging area
 
-- Add writes to the repository (in a binary object)
-- Add creates a new copy of a file
+`git add /path/to/file`
+`git add .`
+`git add -A`
+`git add -Af`
+`git add -p /path/to/file`
 
 ---
 
-## Git commit
+## git add
+
+- Add writes to the repository (in a binary object)
+- Add is used to add changes to the staging area
+
+---
+# Viewing the differences
+
+`git diff HEAD`
+`git diff`
+`git diff --staged `
+`git diff -w`
+`git diff --ignore-all-space`
+
+---
+# Committing to the repo 
+
+`git commit`
+`git commit -m "<message>"`
+`git commit -a`
+`git commit -am "<message>"`
+
+---
+
+## git commit
 
 - Commit takes what has been written in the repo and creates a commit object for that
 - The commit object has an id (hash)
 - The commit object has labels on it (head, master)
+- Snapshots, not differences are saved
 
 ---
+
+# Viewing the commit log
+
+`git log`
+`git log -n <number>`
+`git log --since=<date>`
+`git log --until=<date>`
+
+---
+
+## git log
+
+- Commit Hash
+- Author 
+- Date
+- Commit message
+
+---
+
+## Happy, so far?
+
+![fit](images/giphy.gif)
+
+---
+
+## Git Concepts and Architecture
+
+---
+
+![fit](images/two-tree-architecture.png)
+
+---
+
+![fit](images/git-architecture.png)
+
+---
+
+## Why staging __**rocks?**__
+
+
+
+---
+
+### You can control to commit __**part**__ of the changes
+
+---
+
+### It helps you sneak in __**small**__ changes
+
+---
+
+### It helps you __**split**__ a large change into multiple commits
+
+---
+
+### It helps you __**review**__ your changes
+
+
+---
+
+
+
+
