@@ -1,5 +1,6 @@
 footer: © Epignosis LLC
 slidenumbers: true
+autoscale: true
 
 > ABCDEF GIT
 -- An in depth intro to GIT
@@ -343,7 +344,12 @@ git commit -m "added kati.txt to the repo"
 
 ---
 
-## Working with the __**head**__ pointer
+## Working with the __**HEAD**__ pointer
+
+---
+
+> Finally figuring out that git commands are strangely named graph manipulation commands -- creating/deleting nodes, moving pointers around
+--Kent Beck
 
 ---
 
