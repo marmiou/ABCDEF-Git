@@ -184,33 +184,32 @@ slidenumbers: true
 
 ### Cool, huh?
 
-![right](gitTree.png)
+![right](images/gitTree.png)
 
 ---
 
 #Performing our first commit
 
-- Make a change
-- Add the change
-- Commit the change
+```
+cd /path/to/project
+echo "This is a line of code" >> kati.txt 
+git add kati.txt 
+git commit -m "added kati.txt to the repo"
 
-`git add <changed file>`
-`git commit -m <commit message> `
-
-
+```
 ---
 
 ## git add
 
 - Add writes to the repository (in a binary object)
-- add creates a new copy of a file
+- Add creates a new copy of a file
 
 ---
 
 ## Git commit
 
-- Takes what has been written in the repo and creates a commit object for that
+- Commit takes what has been written in the repo and creates a commit object for that
 - The commit object has an id (hash)
-- The commit object has labels on it (head (where you currently created the object), master (branch))
+- The commit object has labels on it (head, master)
 
 ---
