@@ -268,13 +268,30 @@ git commit -m "added kati.txt to the repo"
 
 ---
 
-## Happy, so far?
+## Show current status of the repo
+
+`git status`
+`git status -s`
+`git status -sb`
+
+
+---
+
+## git status
+
+- Shows changes in working directory
+- Shows changes in the staging area
+- It is clean when every change is committed
+
+---
+
+# Happy, so far?
 
 ![fit](images/giphy.gif)
 
 ---
 
-## Git Concepts and Architecture
+# Git Concepts and Architecture
 
 ---
 
@@ -308,6 +325,58 @@ git commit -m "added kati.txt to the repo"
 
 
 ---
+
+## The git workflow
+
+---
+
+### The git workflow
+
+1. Create new file kati
+2. Git add  & commit new file kati(A)
+3. Make changes to kati 
+4. Git add & commit kati (B)
+
+---
+
+> Repeat until the world ends
+
+---
+
+## Working with the __**head**__ pointer
+
+---
+
+### HEAD points to the __**latest change**__ in the repository
+
+---
+
+### __**Remember**__
+
+---
+
+### HEAD points to the __**repo**__, not the staging area, or the working directory!
+
+---
+
+### HEAD points to the __**last state**__ of our repo, what was last checked out
+
+---
+
+### Every time we commit a change, HEAD __**moves**__ to this latest change
+
+---
+
+### Aren't pointers just __**awesome**__?
+
+---
+
+![130%](images/homer.gif)
+
+---
+
+
+
 
 
 
