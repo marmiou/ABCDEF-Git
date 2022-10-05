@@ -1,4 +1,3 @@
-footer: © Epignosis LLC
 slidenumbers: true
 autoscale: true
 
